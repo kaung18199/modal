@@ -10,15 +10,11 @@
         <div class="carousel__item">
           <img
             :src="slide.image"
-            class="object-fill h-[320px] rounded-md"
+            class="object-fill h-[320px] rounded-md shadow-md"
             alt=""
           />
         </div>
       </Slide>
-
-      <template #addons>
-        <pagination />
-      </template>
     </Carousel>
   </div>
 </template>
@@ -140,49 +136,49 @@ const image = ref([
 
 const breakpoints = {
   300: {
-    itemsToShow: 1.5,
-    snapAlign: "center",
-  },
-  400: {
     itemsToShow: 1.8,
     snapAlign: "center",
   },
+  400: {
+    itemsToShow: 2.1,
+    snapAlign: "center",
+  },
   500: {
-    itemsToShow: 2.2,
-    snapAlign: "center",
-  },
-  600: {
-    itemsToShow: 2.5,
-    snapAlign: "center",
-  },
-  700: {
     itemsToShow: 2.8,
     snapAlign: "center",
   },
+  600: {
+    itemsToShow: 3.1,
+    snapAlign: "center",
+  },
+  700: {
+    itemsToShow: 3.5,
+    snapAlign: "center",
+  },
   800: {
-    itemsToShow: 3.4,
+    itemsToShow: 3.8,
     snapAlign: "center",
   },
   // 700px and up
   900: {
-    itemsToShow: 3.8,
+    itemsToShow: 4.2,
     snapAlign: "center",
   },
   // 1024 and up
   1024: {
-    itemsToShow: 4.2,
+    itemsToShow: 4.5,
     snapAlign: "center",
   },
   1124: {
-    itemsToShow: 4.6,
-    snapAlign: "center",
-  },
-  1200: {
     itemsToShow: 4.8,
     snapAlign: "center",
   },
-  1300: {
+  1200: {
     itemsToShow: 5.2,
+    snapAlign: "center",
+  },
+  1300: {
+    itemsToShow: 5.9,
     snapAlign: "center",
   },
 };
@@ -206,26 +202,26 @@ const breakpoints = {
 }
 
 .carousel__slide {
-  opacity: 0.3;
-  transform: rotateY(0deg) scale(0.9);
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
 }
 
 /* .carousel__slide--active ~ .carousel__slide {
-  transform: rotateY(20deg) scale(0.9);
+  transform: rotateY(20deg) scale(1);
 } */
 
 .carousel__slide--prev {
-  opacity: 0.3;
-  transform: rotateY(0deg) scale(0.9);
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
 }
 
 .carousel__slide--next {
-  opacity: 0.3;
-  transform: rotateY(0deg) scale(0.9);
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
 }
 
 .carousel__slide--active {
   opacity: 1;
-  transform: rotateY(0) scale(1.1);
+  transform: rotateY(0) scale(1);
 }
 </style>

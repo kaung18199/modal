@@ -195,7 +195,7 @@
     </div>
 
     <!-- gallery -->
-    <div class="h-auto pb-10 lg:pb-0 py-[5%] bg-gray-900/70" id="gallery">
+    <div class="h-auto pb-10 lg:pb-0 py-[5%]" id="gallery">
       <div data-aos="zoom-in-up" class="space-y-4 mb-10 mt-8">
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-10 sm:mt-0"
@@ -203,18 +203,18 @@
           OUR GALLERY
         </p>
         <p
-          class="text-xl text-white font-vidaloka text-center font-italic letter-spacing-text font-semibold"
+          class="text-xl text-gray-600 font-vidaloka text-center font-italic letter-spacing-text font-semibold"
         >
           LET MAKE GREAT THING TOGETHER
         </p>
       </div>
-      <div class="pt-10 pb-20">
+      <div class="pt-10 pb-10">
         <Gallery />
       </div>
     </div>
 
     <!-- alblum -->
-    <div class="py-[5%]" id="alblum">
+    <div class="pb-[5%]" id="alblum">
       <div data-aos="zoom-in-up" class="space-y-4 mb-20">
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-8"
@@ -235,7 +235,7 @@
           <img
             :src="x.image"
             alt=""
-            class="shadow-md h-auto md:h-[300px] lg:h-[350px] xl:h-[380px] w-full"
+            class="shadow-md rounded-md h-auto md:h-[300px] lg:h-[350px] xl:h-[380px] w-full"
           />
         </div>
       </div>
