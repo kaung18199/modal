@@ -102,7 +102,7 @@
         <div class="relative mb-10">
           <img
             class="w-auto h-[300px] md:h-[400px] lg:h-[500px] absolute top-10 left-10 hover:top-0 hover:left-0 duration-150 transition-all z-10"
-            src="../assets/FSGH5351.JPG"
+            src="../assets/img12.jpeg"
             alt=""
           />
           <div
@@ -253,7 +253,7 @@
         <div class="relative mb-10">
           <img
             class="w-auto h-[300px] md:h-[400px] lg:h-[500px] absolute top-10 left-10 hover:top-0 hover:left-0 duration-150 transition-all z-10"
-            src="../assets/FSGH5351.JPG"
+            src="../assets/img18.jpeg"
             alt=""
           />
           <div
