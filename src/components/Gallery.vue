@@ -132,6 +132,46 @@ const image = ref([
     id: 20,
     image: img32,
   },
+  {
+    id: 21,
+    image: img4,
+  },
+  {
+    id: 22,
+    image: img5,
+  },
+  {
+    id: 23,
+    image: img6,
+  },
+  {
+    id: 24,
+    image: img7,
+  },
+  {
+    id: 25,
+    image: img8,
+  },
+  {
+    id: 26,
+    image: img9,
+  },
+  {
+    id: 27,
+    image: img10,
+  },
+  {
+    id: 28,
+    image: img11,
+  },
+  {
+    id: 29,
+    image: img12,
+  },
+  {
+    id: 30,
+    image: img13,
+  },
 ]);
 
 const breakpoints = {
