@@ -45,7 +45,7 @@
       id="home"
     >
       <img
-        src="../assets/—Pngtree—wave point polka dots corner_7964858.png"
+        src="../assets/dots.png"
         class="absolute bottom-0 md:top-0 left-0 object-fill z-20 opacity-20"
         alt=""
       />
@@ -159,7 +159,7 @@
         class="flex justify-center items-center py-20 mt-10 mb-20 px-10 bg-gray-900/70 space-x-8 relative overflow-hidden"
       >
         <img
-          src="../assets/—Pngtree—wave point polka dots corner_7964858.png"
+          src="../assets/dots.png"
           class="absolute bottom-0 md:top-0 left-0 object-fill z-20 opacity-20"
           alt=""
         />
@@ -296,7 +296,7 @@
         <p>Created by Neptunemm</p>
       </div>
       <img
-        src="../assets/—Pngtree—wave point polka dots corner_7964858.png"
+        src="../assets/dots.png"
         class="absolute bottom-0 md:top-0 left-0 object-fill z-20 opacity-5"
         alt=""
       />
