@@ -227,7 +227,7 @@
           THAT IS MY SELECTION
         </p>
       </div>
-      <div
+      <!-- <div
         data-aos="fade-left"
         class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-8 md:px-20 lg:px-32"
       >
@@ -237,6 +237,89 @@
             alt=""
             class="shadow-md rounded-md h-auto md:h-[300px] lg:h-[350px] xl:h-[380px] w-full"
           />
+        </div>
+      </div> -->
+
+      <div
+        data-aos="fade-left"
+        class="grid grid-cols-2 md:grid-cols-4 gap-4 px-8 md:px-16 lg:px-20"
+      >
+        <div class="grid gap-4">
+          <div class="relative">
+            <img class="h-auto max-w-full rounded-lg" :src="img1" alt="" />
+          </div>
+          <div class="relative h-[200px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img2"
+              alt=""
+            />
+          </div>
+          <div class="relative h-[150px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img3"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative h-[200px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img6"
+              alt=""
+            />
+          </div>
+          <div class="relative h-[150px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img5"
+              alt=""
+            />
+          </div>
+          <div class="relative">
+            <img class="h-auto max-w-full rounded-lg" :src="img4" alt="" />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative h-[150px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img9"
+              alt=""
+            />
+          </div>
+
+          <div class="relative">
+            <img class="h-auto max-w-full rounded-lg" :src="img8" alt="" />
+          </div>
+          <div class="relative h-[200px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img7"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative">
+            <img class="h-auto max-w-full rounded-lg" :src="img10" alt="" />
+          </div>
+          <div class="relative h-[200px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img11"
+              alt=""
+            />
+          </div>
+          <div class="relative h-[150px] overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full absolute bottom-0"
+              :src="img12"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -318,6 +401,10 @@ import img5 from "../assets/img24.jpeg";
 import img6 from "../assets/img29.jpeg";
 import img7 from "../assets/img31.jpeg";
 import img8 from "../assets/img32.jpeg";
+import img9 from "../assets/img11.jpeg";
+import img10 from "../assets/img12.jpeg";
+import img11 from "../assets/img26.jpeg";
+import img12 from "../assets/img19.jpeg";
 
 const select = ref([
   {
