@@ -1,37 +1,39 @@
 <template>
   <div class="relative w-full overflow-x-hidden">
     <!-- slide icon -->
-    <div class="fixed top-[15%] left-1 md:left-6 lg:left-16 z-30 space-y-8">
+    <div
+      class="fixed top-[23%] left-1 md:left-6 lg:left-6 z-30 space-y-6 border-l border-gray-500"
+    >
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer border-l-2 border-gray-800 px-4 ml-1">
+      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
         <p class="block group-hover:hidden font-vidaloka">01</p>
         <a href="#home"
           ><p class="hidden group-hover:block font-vidaloka">Home</p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer border-l-2 border-gray-800 px-4 ml-1">
+      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
         <p class="block group-hover:hidden font-vidaloka">02</p>
         <a href="#about"
           ><p class="hidden group-hover:block font-vidaloka">About</p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer border-l-2 border-gray-800 px-4 ml-1">
+      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
         <p class="block group-hover:hidden font-vidaloka">03</p>
         <a href="#recommend"
           ><p class="hidden group-hover:block font-vidaloka">Recomment</p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer border-l-2 border-gray-800 px-4 ml-1">
+      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
         <p class="block group-hover:hidden font-vidaloka">04</p>
         <a href="#gallery"
           ><p class="hidden group-hover:block font-vidaloka">Gallery</p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer border-l-2 border-gray-800 px-4 ml-1">
+      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
         <p class="block group-hover:hidden font-vidaloka">05</p>
         <a href="#alblum"
           ><p class="hidden group-hover:block font-vidaloka">Alblum</p></a
