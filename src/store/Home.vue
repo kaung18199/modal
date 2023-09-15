@@ -227,18 +227,6 @@
           THAT IS MY SELECTION
         </p>
       </div>
-      <!-- <div
-        data-aos="fade-left"
-        class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-8 md:px-20 lg:px-32"
-      >
-        <div v-for="x in select" :key="x.id">
-          <img
-            :src="x.image"
-            alt=""
-            class="shadow-md rounded-md h-auto md:h-[300px] lg:h-[350px] xl:h-[380px] w-full"
-          />
-        </div>
-      </div> -->
 
       <div
         data-aos="fade-left"
@@ -249,13 +237,11 @@
             <img class="h-auto max-w-full rounded-lg" :src="img1" alt="" />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full absolute bottom-0"
-              :src="img2"
-              alt=""
-            />
+            <img class="h-auto max-w-full absolute top-0" :src="img2" alt="" />
           </div>
-          <div class="relative h-[150px] overflow-hidden rounded-lg">
+          <div
+            class="relative h-[150px] overflow-hidden rounded-lg flex justify-center"
+          >
             <img
               class="h-auto max-w-full absolute bottom-0"
               :src="img3"
@@ -265,11 +251,7 @@
         </div>
         <div class="grid gap-4">
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full absolute bottom-0"
-              :src="img6"
-              alt=""
-            />
+            <img class="h-auto max-w-full absolute top-0" :src="img6" alt="" />
           </div>
           <div class="relative h-[150px] overflow-hidden rounded-lg">
             <img
@@ -295,11 +277,7 @@
             <img class="h-auto max-w-full rounded-lg" :src="img8" alt="" />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full absolute bottom-0"
-              :src="img7"
-              alt=""
-            />
+            <img class="h-auto max-w-full absolute top-0" :src="img7" alt="" />
           </div>
         </div>
         <div class="grid gap-4">
@@ -307,11 +285,7 @@
             <img class="h-auto max-w-full rounded-lg" :src="img10" alt="" />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full absolute bottom-0"
-              :src="img11"
-              alt=""
-            />
+            <img class="h-auto max-w-full absolute top-0" :src="img11" alt="" />
           </div>
           <div class="relative h-[150px] overflow-hidden rounded-lg">
             <img
