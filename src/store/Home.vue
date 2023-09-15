@@ -235,17 +235,25 @@
         class="grid grid-cols-2 md:grid-cols-4 gap-4 px-8 md:px-16 lg:px-20"
       >
         <div class="grid gap-4">
-          <div class="relative">
-            <img class="h-auto max-w-full rounded-lg" :src="img1" alt="" />
+          <div class="relative overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
+              :src="img1"
+              alt=""
+            />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img class="h-auto max-w-full absolute top-0" :src="img2" alt="" />
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
+              :src="img2"
+              alt=""
+            />
           </div>
           <div
             class="relative h-[150px] overflow-hidden rounded-lg flex justify-center"
           >
             <img
-              class="h-auto max-w-full absolute bottom-0"
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
               :src="img3"
               alt=""
             />
@@ -253,45 +261,69 @@
         </div>
         <div class="grid gap-4">
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img class="h-auto max-w-full absolute top-0" :src="img6" alt="" />
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
+              :src="img6"
+              alt=""
+            />
           </div>
           <div class="relative h-[150px] overflow-hidden rounded-lg">
             <img
-              class="h-auto max-w-full absolute bottom-0"
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
               :src="img5"
               alt=""
             />
           </div>
-          <div class="relative">
-            <img class="h-auto max-w-full rounded-lg" :src="img4" alt="" />
+          <div class="relative overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
+              :src="img4"
+              alt=""
+            />
           </div>
         </div>
         <div class="grid gap-4">
           <div class="relative h-[150px] overflow-hidden rounded-lg">
             <img
-              class="h-auto max-w-full absolute bottom-0"
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
               :src="img9"
               alt=""
             />
           </div>
 
-          <div class="relative">
-            <img class="h-auto max-w-full rounded-lg" :src="img8" alt="" />
+          <div class="relative overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
+              :src="img8"
+              alt=""
+            />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img class="h-auto max-w-full absolute top-0" :src="img7" alt="" />
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
+              :src="img7"
+              alt=""
+            />
           </div>
         </div>
         <div class="grid gap-4">
-          <div class="relative">
-            <img class="h-auto max-w-full rounded-lg" :src="img10" alt="" />
+          <div class="relative overflow-hidden rounded-lg">
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
+              :src="img10"
+              alt=""
+            />
           </div>
           <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img class="h-auto max-w-full absolute top-0" :src="img11" alt="" />
+            <img
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
+              :src="img11"
+              alt=""
+            />
           </div>
           <div class="relative h-[150px] overflow-hidden rounded-lg">
             <img
-              class="h-auto max-w-full absolute bottom-0"
+              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
               :src="img12"
               alt=""
             />
@@ -331,22 +363,22 @@
         >
           <p>
             <i
-              class="fa-brands fa-facebook text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-110 duration-150"
+              class="fa-brands fa-facebook text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
             ></i>
           </p>
           <p>
             <i
-              class="fa-brands fa-viber text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-110 duration-150"
+              class="fa-brands fa-viber text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
             ></i>
           </p>
           <p>
             <i
-              class="fa-brands fa-instagram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-110 duration-150"
+              class="fa-brands fa-instagram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
             ></i>
           </p>
           <p>
             <i
-              class="fa-brands fa-telegram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-110 duration-150"
+              class="fa-brands fa-telegram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
             ></i>
           </p>
         </div>

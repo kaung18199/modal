@@ -7,7 +7,7 @@
       :autoplay="4000"
     >
       <Slide v-for="slide in image" :key="slide.id">
-        <div class="carousel__item">
+        <div class="carousel__item rounded-md">
           <img
             :src="slide.image"
             class="object-fill h-[320px] rounded-md shadow-md"
@@ -184,11 +184,11 @@ const breakpoints = {
     snapAlign: "center",
   },
   500: {
-    itemsToShow: 2.8,
+    itemsToShow: 2.6,
     snapAlign: "center",
   },
   600: {
-    itemsToShow: 3.1,
+    itemsToShow: 2.8,
     snapAlign: "center",
   },
   700: {
@@ -242,26 +242,26 @@ const breakpoints = {
 }
 
 .carousel__slide {
-  opacity: 1;
-  transform: rotateY(0deg) scale(1);
+  opacity: 0.8;
+  transform: rotateY(0deg) scale(0.9);
 }
 
 /* .carousel__slide--active ~ .carousel__slide {
-  transform: rotateY(20deg) scale(1);
+  transform: rotateY(20deg) scale(0.9);
 } */
 
 .carousel__slide--prev {
-  opacity: 1;
-  transform: rotateY(0deg) scale(1);
+  opacity: 0.8;
+  transform: rotateY(0deg) scale(0.9);
 }
 
 .carousel__slide--next {
-  opacity: 1;
-  transform: rotateY(0deg) scale(1);
+  opacity: 0.8;
+  transform: rotateY(0deg) scale(0.9);
 }
 
 .carousel__slide--active {
   opacity: 1;
-  transform: rotateY(0) scale(1);
+  transform: rotateY(0) scale(1.1);
 }
 </style>
