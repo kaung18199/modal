@@ -1,0 +1,121 @@
+<template>
+  <div>
+    <div
+      data-aos="fade-left"
+      class="grid grid-cols-2 md:grid-cols-4 gap-4 px-8 md:px-16 lg:px-20"
+    >
+      <div class="grid gap-4">
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            @click="showImageHandle(img1)"
+            :src="img1"
+            alt=""
+          />
+        </div>
+        <div class="relative h-[200px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            @click="showImageHandle(img2)"
+            :src="img2"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="grid gap-4">
+        <div class="relative h-[200px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            @click="showImageHandle(img3)"
+            :src="img3"
+            alt=""
+          />
+        </div>
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
+            @click="showImageHandle(img4)"
+            :src="img4"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="grid gap-4">
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            @click="showImageHandle(img5)"
+            :src="img5"
+            alt=""
+          />
+        </div>
+        <div class="relative h-[200px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            @click="showImageHandle(img6)"
+            :src="img6"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="grid gap-4">
+        <div class="relative h-[200px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            @click="showImageHandle(img7)"
+            :src="img7"
+            alt=""
+          />
+        </div>
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
+            @click="showImageHandle(img8)"
+            :src="img8"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <Modal :isOpen="categoryModalOpen" @closeModal="categoryModalOpen = false">
+      <DialogPanel
+        class="max-w-sm transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
+      >
+        <div class="flex justify-between">
+          <DialogTitle
+            as="h3"
+            class="text-base font-medium leading-6 text-gray-900 mb-5"
+          >
+            Image Category </DialogTitle
+          ><i
+            class="fa-solid fa-circle-xmark text-3xl text-red-600 cursor-pointer"
+            @click="categoryModalOpen = false"
+          ></i>
+        </div>
+        <img :src="showImage" class="h-auto" alt="" />
+      </DialogPanel>
+    </Modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from "vue";
+import Modal from "./Modal.vue";
+import { Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
+import img1 from "../assets/img10.jpeg";
+import img2 from "../assets/img12.jpeg";
+import img3 from "../assets/img31.jpeg";
+import img4 from "../assets/img32.jpeg";
+import img5 from "../assets/img22.jpeg";
+import img6 from "../assets/img23.jpeg";
+import img7 from "../assets/img24.jpeg";
+import img8 from "../assets/img30.jpeg";
+
+const showImage = ref("");
+const categoryModalOpen = ref(false);
+
+const showImageHandle = (imgU) => {
+  categoryModalOpen.value = true;
+  showImage.value = imgU;
+};
+</script>

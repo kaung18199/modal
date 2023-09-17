@@ -216,8 +216,8 @@
     </div>
 
     <!-- alblum -->
-    <div class="pb-[5%]" id="alblum">
-      <div data-aos="zoom-in-up" class="space-y-4 mb-20">
+    <div class="pb-[5%] mt-10 md:mt-20" id="alblum">
+      <div data-aos="zoom-in-up" class="space-y-4 mb-5">
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-8"
         >
@@ -230,106 +230,7 @@
         </p>
       </div>
 
-      <div
-        data-aos="fade-left"
-        class="grid grid-cols-2 md:grid-cols-4 gap-4 px-8 md:px-16 lg:px-20"
-      >
-        <div class="grid gap-4">
-          <div class="relative overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
-              :src="img1"
-              alt=""
-            />
-          </div>
-          <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
-              :src="img2"
-              alt=""
-            />
-          </div>
-          <div
-            class="relative h-[150px] overflow-hidden rounded-lg flex justify-center"
-          >
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
-              :src="img3"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
-              :src="img6"
-              alt=""
-            />
-          </div>
-          <div class="relative h-[150px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
-              :src="img5"
-              alt=""
-            />
-          </div>
-          <div class="relative overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
-              :src="img4"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div class="relative h-[150px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
-              :src="img9"
-              alt=""
-            />
-          </div>
-
-          <div class="relative overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
-              :src="img8"
-              alt=""
-            />
-          </div>
-          <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
-              :src="img7"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div class="relative overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition rounded-lg"
-              :src="img10"
-              alt=""
-            />
-          </div>
-          <div class="relative h-[200px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute top-0"
-              :src="img11"
-              alt=""
-            />
-          </div>
-          <div class="relative h-[150px] overflow-hidden rounded-lg">
-            <img
-              class="h-auto max-w-full hover:scale-125 duration-75 transition absolute bottom-0"
-              :src="img12"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
+      <AlblumVue />
     </div>
 
     <!-- contact me -->
@@ -400,54 +301,7 @@
 import { onMounted, ref } from "vue";
 import Recomend from "../components/Recomend.vue";
 import Gallery from "../components/Gallery.vue";
-
-import img1 from "../assets/img9.jpeg";
-import img2 from "../assets/img8.jpeg";
-import img3 from "../assets/img13.jpeg";
-import img4 from "../assets/img28.jpeg";
-import img5 from "../assets/img24.jpeg";
-import img6 from "../assets/img29.jpeg";
-import img7 from "../assets/img31.jpeg";
-import img8 from "../assets/img32.jpeg";
-import img9 from "../assets/img11.jpeg";
-import img10 from "../assets/img12.jpeg";
-import img11 from "../assets/img26.jpeg";
-import img12 from "../assets/img19.jpeg";
-
-const select = ref([
-  {
-    id: 1,
-    image: img1,
-  },
-  {
-    id: 2,
-    image: img2,
-  },
-  {
-    id: 3,
-    image: img3,
-  },
-  {
-    id: 4,
-    image: img4,
-  },
-  {
-    id: 5,
-    image: img5,
-  },
-  {
-    id: 6,
-    image: img6,
-  },
-  {
-    id: 7,
-    image: img7,
-  },
-  {
-    id: 8,
-    image: img8,
-  },
-]);
+import AlblumVue from "../store/AlblumHome.vue";
 
 const location = ref("");
 </script>
