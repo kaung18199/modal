@@ -114,18 +114,18 @@
     </div>
     <Modal :isOpen="categoryModalOpen" @closeModal="categoryModalOpen = false">
       <DialogPanel
-        class="max-w-sm transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
+        class="max-w-lg transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
       >
         <div class="flex justify-between">
           <DialogTitle
             as="h3"
             class="text-base font-medium leading-6 text-gray-900 mb-5"
           >
-            Image Category </DialogTitle
-          ><i
+          </DialogTitle>
+          <!-- <i
             class="fa-solid fa-circle-xmark text-3xl text-red-600 cursor-pointer"
             @click="categoryModalOpen = false"
-          ></i>
+          ></i> -->
         </div>
         <img :src="showImage" class="h-auto" alt="" />
       </DialogPanel>

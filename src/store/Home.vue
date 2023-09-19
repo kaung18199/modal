@@ -197,22 +197,30 @@
     </div>
 
     <!-- gallery -->
-    <div class="h-auto pb-10 lg:pb-0 py-[5%]" id="gallery">
-      <div data-aos="zoom-in-up" class="space-y-4 mb-10 mt-8">
+    <div
+      class="h-auto pb-10 lg:pb-0 py-[5%] bg-gray-900/70 relative overflow-hidden"
+      id="gallery"
+    >
+      <div data-aos="zoom-in-up" class="space-y-4 mb-10 mt-8 relative z-30">
         <p
-          class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-10 sm:mt-0"
+          class="text-gray-300 text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold letter-spacing-text font-vidaloka text-center mt-10 sm:mt-0"
         >
           OUR GALLERY
         </p>
         <p
-          class="text-xl text-gray-600 font-vidaloka text-center font-italic letter-spacing-text font-semibold"
+          class="text-xl text-gray-100 font-vidaloka text-center font-italic letter-spacing-text font-semibold"
         >
           LET MAKE GREAT THING TOGETHER
         </p>
       </div>
-      <div class="pt-10 pb-10">
+      <div class="pt-10 pb-10 relative z-30">
         <Gallery />
       </div>
+      <img
+        src="../assets/dots.png"
+        class="absolute bottom-0 md:top-0 left-0 object-fill z-20 opacity-20"
+        alt=""
+      />
     </div>
 
     <!-- alblum -->
