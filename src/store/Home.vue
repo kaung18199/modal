@@ -1,45 +1,73 @@
 <template>
   <div class="relative w-full overflow-x-hidden">
+    <div
+      @click="toggle()"
+      class="fixed top-[5%] left-[5%] lg:left-6 z-50 px-5 py-4 bg-gray-950/80 rounded-full shadow hover:bg-gray-950"
+    >
+      <i class="fa-solid text-gray-300 fa-bars" v-if="!showNav"></i>
+      <i class="fa-solid text-gray-300 fa-xmark" v-if="showNav"></i>
+    </div>
     <!-- slide icon -->
     <div
-      class="fixed top-[23%] left-1 md:left-6 lg:left-6 z-30 space-y-6 border-l border-gray-500"
+      class="fixed top-[15%] sm:top-[5%] lg:top-[15%] left-[5%] sm:left-[18%] md:left-[30%] lg:left-6 z-50 py-0 sm:py-4 lg:py-0 block sm:flex justify-center items-center lg:block px-5 sm:px-2 bg-gray-950/80 rounded-full space-x-0 sm:space-x-6 lg:space-x-0 space-y-6 sm:space-y-0 lg:space-y-6 shadow"
+      v-if="showNav"
     >
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
-        <p class="block group-hover:hidden font-vidaloka">01</p>
+      <p class="w-2 h-2 rounded-full"></p>
+      <div class="group cursor-pointer px-0 lg:px-3">
+        <p class="block group-hover:hidden font-vidaloka">
+          <i class="fa-solid text-gray-300 fa-house-chimney"></i>
+        </p>
         <a href="#home"
-          ><p class="hidden group-hover:block font-vidaloka">Home</p></a
+          ><p class="hidden group-hover:block font-vidaloka text-white">
+            Home
+          </p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
-        <p class="block group-hover:hidden font-vidaloka">02</p>
+      <div class="group cursor-pointer px-0 lg:px-3">
+        <p class="block group-hover:hidden font-vidaloka">
+          <i class="fa-solid text-gray-300 fa-address-card"></i>
+        </p>
         <a href="#about"
-          ><p class="hidden group-hover:block font-vidaloka">About</p></a
+          ><p class="hidden group-hover:block font-vidaloka text-white">
+            About
+          </p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
-        <p class="block group-hover:hidden font-vidaloka">03</p>
+      <div class="group cursor-pointer px-0 lg:px-3">
+        <p class="block group-hover:hidden font-vidaloka">
+          <i class="fa-solid text-gray-300 fa-comments"></i>
+        </p>
         <a href="#recommend"
-          ><p class="hidden group-hover:block font-vidaloka">Recomment</p></a
+          ><p class="hidden group-hover:block font-vidaloka text-white">
+            Recomment
+          </p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
-        <p class="block group-hover:hidden font-vidaloka">04</p>
+      <div class="group cursor-pointer px-0 lg:px-3">
+        <p class="block group-hover:hidden font-vidaloka">
+          <i class="fa-solid text-gray-300 fa-photo-film"></i>
+        </p>
         <a href="#gallery"
-          ><p class="hidden group-hover:block font-vidaloka">Gallery</p></a
+          ><p class="hidden group-hover:block font-vidaloka text-white">
+            Gallery
+          </p></a
         >
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-      <div class="group cursor-pointer hover:border-l-2 border-gray-800 px-4">
-        <p class="block group-hover:hidden font-vidaloka">05</p>
+      <div class="group cursor-pointer px-0 lg:px-3">
+        <p class="block group-hover:hidden font-vidaloka">
+          <i class="fa-solid text-gray-300 fa-folder-open"></i>
+        </p>
         <a href="#alblum"
-          ><p class="hidden group-hover:block font-vidaloka">Alblum</p></a
+          ><p class="hidden group-hover:block font-vidaloka text-white">
+            Alblum
+          </p></a
         >
       </div>
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+      <p class="w-2 h-2 rounded-full"></p>
     </div>
     <!-- home -->
     <div
@@ -64,21 +92,21 @@
       <div class="h-screen w-full bg-gray-900/40 absolute z-10"></div>
       <div
         data-aos="fade-right"
-        class="absolute z-20 top-[60%] sm:top-[40%] md:top-[30%] left-[20%] space-y-6 md:space-y-10 lg:space-y-14"
+        class="absolute z-20 top-[35%] sm:top-[35%] md:top-[30%] left-[20%] space-y-10 lg:space-y-14"
       >
         <p
-          class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-vidaloka font-italic text-white letter-spacing-wide"
+          class="text-3xl md:text-3xl lg:text-3xl font-vidaloka font-italic text-white letter-spacing-wide"
         >
           ACTOR/MODAL
         </p>
         <div>
           <p
-            class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-vidaloka font-extrabold text-white"
+            class="text-5xl mb-2 lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
           >
             MODAL
           </p>
           <p
-            class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-vidaloka font-extrabold text-white"
+            class="text-3xl sm:text-5xl lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
           >
             RAMKI YE KO
           </p>
@@ -312,6 +340,12 @@ import Gallery from "../components/Gallery.vue";
 import AlblumVue from "../store/AlblumHome.vue";
 
 const location = ref("");
+
+const showNav = ref(true);
+
+const toggle = () => {
+  showNav.value = !showNav.value;
+};
 </script>
 
 <style>
