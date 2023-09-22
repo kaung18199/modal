@@ -22,9 +22,8 @@
             class="hidden group-hover:block font-vidaloka text-white"
             @click="toggle()"
           >
-            Home
-          </p></a
-        >
+            <i class="fa-solid text-blue-300 fa-house-chimney"></i></p
+        ></a>
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
@@ -36,9 +35,8 @@
             class="hidden group-hover:block font-vidaloka text-white"
             @click="toggle()"
           >
-            About
-          </p></a
-        >
+            <i class="fa-solid text-blue-300 fa-address-card"></i></p
+        ></a>
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
@@ -50,9 +48,8 @@
             class="hidden group-hover:block font-vidaloka text-white"
             @click="toggle()"
           >
-            Recomment
-          </p></a
-        >
+            <i class="fa-solid text-blue-400 fa-comments"></i></p
+        ></a>
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
@@ -64,9 +61,8 @@
             class="hidden group-hover:block font-vidaloka text-white"
             @click="toggle()"
           >
-            Gallery
-          </p></a
-        >
+            <i class="fa-solid text-blue-400 fa-photo-film"></i></p
+        ></a>
       </div>
       <p class="w-2 h-2 bg-red-600 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
@@ -78,9 +74,8 @@
             class="hidden group-hover:block font-vidaloka text-white"
             @click="toggle()"
           >
-            Alblum
-          </p></a
-        >
+            <i class="fa-solid text-blue-400 fa-folder-open"></i></p
+        ></a>
       </div>
       <p class="w-2 h-2 rounded-full"></p>
     </div>
