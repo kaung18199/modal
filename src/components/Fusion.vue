@@ -79,7 +79,7 @@
     </div>
     <Modal :isOpen="categoryModalOpen" @closeModal="categoryModalOpen = false">
       <DialogPanel
-        class="max-w-sm transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
+        class="max-w-lg transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
       >
         <div class="flex justify-start relative">
           <DialogTitle
