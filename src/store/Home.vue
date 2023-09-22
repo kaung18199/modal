@@ -18,7 +18,10 @@
           <i class="fa-solid text-gray-300 fa-house-chimney"></i>
         </p>
         <a href="#home"
-          ><p class="hidden group-hover:block font-vidaloka text-white">
+          ><p
+            class="hidden group-hover:block font-vidaloka text-white"
+            @click="toggle()"
+          >
             Home
           </p></a
         >
@@ -29,7 +32,10 @@
           <i class="fa-solid text-gray-300 fa-address-card"></i>
         </p>
         <a href="#about"
-          ><p class="hidden group-hover:block font-vidaloka text-white">
+          ><p
+            class="hidden group-hover:block font-vidaloka text-white"
+            @click="toggle()"
+          >
             About
           </p></a
         >
@@ -40,7 +46,10 @@
           <i class="fa-solid text-gray-300 fa-comments"></i>
         </p>
         <a href="#recommend"
-          ><p class="hidden group-hover:block font-vidaloka text-white">
+          ><p
+            class="hidden group-hover:block font-vidaloka text-white"
+            @click="toggle()"
+          >
             Recomment
           </p></a
         >
@@ -51,7 +60,10 @@
           <i class="fa-solid text-gray-300 fa-photo-film"></i>
         </p>
         <a href="#gallery"
-          ><p class="hidden group-hover:block font-vidaloka text-white">
+          ><p
+            class="hidden group-hover:block font-vidaloka text-white"
+            @click="toggle()"
+          >
             Gallery
           </p></a
         >
@@ -62,7 +74,10 @@
           <i class="fa-solid text-gray-300 fa-folder-open"></i>
         </p>
         <a href="#alblum"
-          ><p class="hidden group-hover:block font-vidaloka text-white">
+          ><p
+            class="hidden group-hover:block font-vidaloka text-white"
+            @click="toggle()"
+          >
             Alblum
           </p></a
         >

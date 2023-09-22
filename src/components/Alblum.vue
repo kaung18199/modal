@@ -116,16 +116,18 @@
       <DialogPanel
         class="max-w-lg transform overflow-hidden rounded-lg bg-white p-4 text-left align-middle shadow-xl transition-all"
       >
-        <div class="flex justify-between">
+        <div class="flex justify-start relative">
           <DialogTitle
             as="h3"
             class="text-base font-medium leading-6 text-gray-900 mb-5"
           >
           </DialogTitle>
-          <!-- <i
-            class="fa-solid fa-circle-xmark text-3xl text-red-600 cursor-pointer"
+          <p
+            class="absolute top-[10px] flex justify-start items-center space-x-3 bg-gray-400/60 hover:bg-gray-800 rounded-full px-3 py-1.5 shadow cursor-pointer"
             @click="categoryModalOpen = false"
-          ></i> -->
+          >
+            <i class="fa-solid fa-xmark text-xl text-white"></i>
+          </p>
         </div>
         <img :src="showImage" class="h-auto" alt="" />
       </DialogPanel>
