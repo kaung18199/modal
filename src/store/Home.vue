@@ -2,14 +2,14 @@
   <div class="relative w-full overflow-x-hidden">
     <div
       @click="toggle()"
-      class="fixed top-[5%] left-[5%] lg:left-6 z-50 px-5 py-4 bg-gray-950/80 rounded-full shadow hover:bg-gray-950"
+      class="fixed top-[5%] left-[2%] lg:left-6 z-50 px-5 py-4 bg-gray-950/80 rounded-full shadow hover:bg-gray-950 animate-bounce"
     >
       <i class="fa-solid text-gray-300 fa-bars" v-if="!showNav"></i>
       <i class="fa-solid text-gray-300 fa-xmark" v-if="showNav"></i>
     </div>
     <!-- slide icon -->
     <div
-      class="fixed top-[15%] sm:top-[5%] lg:top-[15%] left-[5%] sm:left-[18%] md:left-[30%] lg:left-6 z-50 py-0 sm:py-4 lg:py-0 block sm:flex justify-center items-center lg:block px-5 sm:px-2 bg-gray-950/80 rounded-full space-x-0 sm:space-x-6 lg:space-x-0 space-y-6 sm:space-y-0 lg:space-y-6 shadow"
+      class="fixed top-[15%] sm:top-[5%] lg:top-[15%] left-[2%] sm:left-[18%] md:left-[30%] lg:left-6 z-50 py-0 sm:py-4 lg:py-0 block sm:flex justify-center items-center lg:block px-5 sm:px-2 bg-gray-950/80 rounded-full space-x-0 sm:space-x-6 lg:space-x-0 space-y-6 sm:space-y-0 lg:space-y-6 shadow"
       v-if="showNav"
     >
       <p class="w-2 h-2 rounded-full"></p>
@@ -25,7 +25,7 @@
             <i class="fa-solid text-blue-300 fa-house-chimney"></i></p
         ></a>
       </div>
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+      <p class="w-2 h-2 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
         <p class="block group-hover:hidden font-vidaloka">
           <i class="fa-solid text-gray-300 fa-address-card"></i>
@@ -38,7 +38,7 @@
             <i class="fa-solid text-blue-300 fa-address-card"></i></p
         ></a>
       </div>
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+      <p class="w-2 h-2 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
         <p class="block group-hover:hidden font-vidaloka">
           <i class="fa-solid text-gray-300 fa-comments"></i>
@@ -51,7 +51,7 @@
             <i class="fa-solid text-blue-400 fa-comments"></i></p
         ></a>
       </div>
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+      <p class="w-2 h-2 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
         <p class="block group-hover:hidden font-vidaloka">
           <i class="fa-solid text-gray-300 fa-photo-film"></i>
@@ -64,7 +64,7 @@
             <i class="fa-solid text-blue-400 fa-photo-film"></i></p
         ></a>
       </div>
-      <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+      <p class="w-2 h-2 rounded-full"></p>
       <div class="group cursor-pointer px-0 lg:px-3">
         <p class="block group-hover:hidden font-vidaloka">
           <i class="fa-solid text-gray-300 fa-folder-open"></i>
@@ -301,32 +301,77 @@
       </div>
       <div data-aos="fade-left">
         <p
-          class="mr-8 md:mr-10 lg:mr-20 mt-10 lg:mt-36 ml-16 lg:ml-20 text-sm sm:text-base md:text-xl lg:text-2xl text-gray-800 font-vidaloka font-italic letter-spacing-text font-semibold"
+          class="mr-8 md:mr-10 lg:mr-20 mt-10 lg:mt-32 ml-16 lg:ml-20 text-sm sm:text-base md:text-xl lg:text-2xl text-gray-800 font-vidaloka font-italic letter-spacing-text font-semibold"
         >
           HAVE A NEW PROJECT? SEND ME A MESSAGE AT
         </p>
+
         <div
-          class="mr-20 mt-14 ml-20 space-x-8 flex justify-start items-start relative z-40"
+          class="mr-20 mt-10 lg:mt-14 ml-20 space-x-8 flex justify-start items-start relative z-40"
         >
           <p>
-            <i
-              class="fa-brands fa-facebook text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
-            ></i>
+            <a
+              href="https://www.facebook.com/ramrasksk?mibextid=ZbWKwL"
+              target="_blink"
+            >
+              <i
+                class="fa-brands fa-facebook text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
+              ></i>
+            </a>
           </p>
           <p>
-            <i
-              class="fa-brands fa-viber text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
-            ></i>
+            <a
+              href="https://youtube.com/@Ramkiyeko?si=zd4pXO3ZyPo1Siy9"
+              target="_blink"
+            >
+              <i
+                class="fa-brands fa-youtube text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150 cursor-pointer"
+              ></i>
+            </a>
+          </p>
+
+          <p>
+            <a href="https://twitter.com/Ramki47397383" target="_blink">
+              <i
+                class="fa-brands fa-twitter text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
+              ></i>
+            </a>
+          </p>
+        </div>
+        <p
+          class="mr-8 md:mr-10 lg:mr-20 mt-10 lg:mt-14 ml-16 lg:ml-20 text-sm sm:text-base md:text-xl lg:text-2xl text-gray-800 font-vidaloka font-italic letter-spacing-text font-semibold"
+        >
+          PERSONAL ACCOUNT
+        </p>
+        <div
+          class="mr-20 mt-10 lg:mt-14 ml-20 space-x-8 flex justify-start items-start relative z-40"
+        >
+          <p>
+            <a
+              href="https://www.facebook.com/ramki.minkoko?mibextid=ZbWKwL"
+              target="_blink"
+            >
+              <i
+                class="fa-brands fa-facebook text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
+              ></i>
+            </a>
           </p>
           <p>
-            <i
-              class="fa-brands fa-instagram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
-            ></i>
+            <a
+              href="https://instagram.com/im_ramki_official?igshid=MzRlODBiNWFlZA=="
+              target="_blink"
+            >
+              <i
+                class="fa-brands fa-instagram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
+              ></i>
+            </a>
           </p>
           <p>
-            <i
-              class="fa-brands fa-telegram text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150"
-            ></i>
+            <a href="tel:+959 541 5762">
+              <i
+                class="fa-solid fa-mobile-screen-button text-2xl md:text-3xl lg:text-4xl text-gray-500 hover:scale-125 duration-150 cursor-pointer"
+              ></i>
+            </a>
           </p>
         </div>
       </div>
