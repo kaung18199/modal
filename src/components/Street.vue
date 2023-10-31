@@ -21,34 +21,18 @@
             alt=""
           />
         </div>
-      </div>
-      <div class="grid gap-4">
-        <div class="relative h-[200px] overflow-hidden rounded-lg">
+        <div
+          class="relative h-[150px] overflow-hidden rounded-lg flex justify-center"
+        >
           <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute bottom-0"
             @click="showImageHandle(img3)"
             :src="img3"
             alt=""
           />
         </div>
-        <div class="relative overflow-hidden rounded-lg">
-          <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
-            @click="showImageHandle(img4)"
-            :src="img4"
-            alt=""
-          />
-        </div>
       </div>
       <div class="grid gap-4">
-        <div class="relative overflow-hidden rounded-lg">
-          <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
-            @click="showImageHandle(img5)"
-            :src="img5"
-            alt=""
-          />
-        </div>
         <div class="relative h-[200px] overflow-hidden rounded-lg">
           <img
             class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
@@ -57,8 +41,41 @@
             alt=""
           />
         </div>
+        <div class="relative h-[150px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute bottom-0"
+            @click="showImageHandle(img5)"
+            :src="img5"
+            alt=""
+          />
+        </div>
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            @click="showImageHandle(img4)"
+            :src="img4"
+            alt=""
+          />
+        </div>
       </div>
       <div class="grid gap-4">
+        <div class="relative h-[150px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute bottom-0"
+            @click="showImageHandle(img9)"
+            :src="img9"
+            alt=""
+          />
+        </div>
+
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            @click="showImageHandle(img8)"
+            :src="img8"
+            alt=""
+          />
+        </div>
         <div class="relative h-[200px] overflow-hidden rounded-lg">
           <img
             class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
@@ -67,11 +84,29 @@
             alt=""
           />
         </div>
+      </div>
+      <div class="grid gap-4">
         <div class="relative overflow-hidden rounded-lg">
           <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
-            @click="showImageHandle(img8)"
-            :src="img8"
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            @click="showImageHandle(img10)"
+            :src="img10"
+            alt=""
+          />
+        </div>
+        <div class="relative h-[200px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            @click="showImageHandle(img11)"
+            :src="img11"
+            alt=""
+          />
+        </div>
+        <div class="relative h-[150px] overflow-hidden rounded-lg">
+          <img
+            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute bottom-0"
+            @click="showImageHandle(img12)"
+            :src="img12"
             alt=""
           />
         </div>
@@ -104,14 +139,19 @@
 import { ref } from "vue";
 import Modal from "./Modal.vue";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
-import img1 from "../assets/img10.jpeg";
-import img2 from "../assets/img12.jpeg";
-import img3 from "../assets/img31.jpeg";
-import img4 from "../assets/img32.jpeg";
-import img5 from "../assets/img22.jpeg";
-import img6 from "../assets/img23.jpeg";
-import img7 from "../assets/img24.jpeg";
-import img8 from "../assets/img30.jpeg";
+import img1 from "../assets/street/1 (1).JPG";
+import img2 from "../assets/street/1 (10).JPG";
+import img3 from "../assets/street/1 (11).JPG";
+import img4 from "../assets/street/1 (15).JPG";
+import img5 from "../assets/street/1 (21).JPG";
+import img6 from "../assets/street/1 (24).JPG";
+import img7 from "../assets/street/1 (25).JPG";
+import img8 from "../assets/street/1 (26).JPG";
+import img9 from "../assets/street/1 (27).JPG";
+import img10 from "../assets/street/1 (28).JPG";
+import img11 from "../assets/street/1 (29).JPG";
+import img12 from "../assets/street/1 (38).JPG";
+import img13 from "../assets/street/1 (39).JPG";
 
 const showImage = ref("");
 const categoryModalOpen = ref(false);

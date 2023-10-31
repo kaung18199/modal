@@ -7,15 +7,17 @@
       <div class="grid gap-4">
         <div class="relative overflow-hidden rounded-lg">
           <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
+            class="h-full max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
             @click="showImageHandle(img1)"
             :src="img1"
             alt=""
           />
         </div>
-        <div class="relative h-[200px] overflow-hidden rounded-lg">
+      </div>
+      <div class="grid gap-4">
+        <div class="relative overflow-hidden rounded-lg">
           <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
+            class="h-full max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
             @click="showImageHandle(img2)"
             :src="img2"
             alt=""
@@ -23,7 +25,7 @@
         </div>
       </div>
       <div class="grid gap-4">
-        <div class="relative h-[200px] overflow-hidden rounded-lg">
+        <div class="relative overflow-hidden rounded-lg">
           <img
             class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
             @click="showImageHandle(img3)"
@@ -31,39 +33,13 @@
             alt=""
           />
         </div>
+      </div>
+      <div class="grid gap-4">
         <div class="relative overflow-hidden rounded-lg">
           <img
             class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
             @click="showImageHandle(img4)"
             :src="img4"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="grid gap-4">
-        <div class="relative overflow-hidden rounded-lg">
-          <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition rounded-lg"
-            @click="showImageHandle(img5)"
-            :src="img5"
-            alt=""
-          />
-        </div>
-        <div class="relative h-[200px] overflow-hidden rounded-lg">
-          <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
-            @click="showImageHandle(img6)"
-            :src="img6"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="grid gap-4">
-        <div class="relative overflow-hidden rounded-lg">
-          <img
-            class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition"
-            @click="showImageHandle(img7)"
-            :src="img7"
             alt=""
           />
         </div>
@@ -96,13 +72,10 @@
 import { ref } from "vue";
 import Modal from "./Modal.vue";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
-import img1 from "../assets/img14.jpeg";
-import img2 from "../assets/img15.jpeg";
-import img3 from "../assets/img25.jpeg";
-import img4 from "../assets/img26.jpeg";
-import img5 from "../assets/img27.jpeg";
-import img6 from "../assets/img28.jpeg";
-import img7 from "../assets/img29.jpeg";
+import img1 from "../assets/latest/0 (1).jpg";
+import img2 from "../assets/latest/0 (2).jpg";
+import img3 from "../assets/latest/0 (3).jpg";
+import img4 from "../assets/latest/1 (8).jpg";
 
 const showImage = ref("");
 const categoryModalOpen = ref(false);

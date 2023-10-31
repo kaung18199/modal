@@ -12,7 +12,7 @@
             }"
             class="flex items-center gap-3 tracking-wide text-xs cursor-pointer py-3 px-3 md:px-5 focus:outline-none text-gray-600 shadow rounded-md"
           >
-            ALL
+            Western
           </button>
         </Tab>
         <Tab as="template" v-slot="{ selected }" @click="changeTab(1)">
@@ -34,7 +34,7 @@
             }"
             class="flex items-center gap-3 tracking-wide text-xs cursor-pointer py-3 px-3 md:px-5 focus:outline-none text-gray-600 shadow rounded-md"
           >
-            Culture
+            Latest
           </button>
         </Tab>
         <Tab as="template" v-slot="{ selected }" @click="changeTab(3)">
@@ -45,22 +45,26 @@
             }"
             class="flex items-center gap-3 tracking-wide text-xs cursor-pointer py-3 px-3 md:px-5 focus:outline-none text-gray-600 shadow rounded-md"
           >
-            Fusion
+            Tradition & Culture
           </button>
         </Tab>
       </TabList>
       <TabPanels>
         <TabPanel>
           <AlblumAll />
+          <!-- western -->
         </TabPanel>
         <TabPanel>
           <Street />
+          <!-- street -->
         </TabPanel>
         <TabPanel>
           <Culture />
+          <!-- latest -->
         </TabPanel>
         <TabPanel>
           <Fusion />
+          <!-- tradition -->
         </TabPanel>
       </TabPanels>
     </TabGroup>

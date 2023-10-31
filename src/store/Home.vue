@@ -5,7 +5,7 @@
       class="fixed top-[5%] left-[2%] lg:left-6 z-50 px-5 py-4 bg-gray-950/80 rounded-full shadow hover:bg-gray-950 animate-bounce"
     >
       <i class="fa-solid text-gray-300 fa-bars" v-if="!showNav"></i>
-      <i class="fa-solid text-gray-300 fa-xmark" v-if="showNav"></i>
+      <i class="fa-solid text-gray-300 fa-xmark px-[2.5px]" v-if="showNav"></i>
     </div>
     <!-- slide icon -->
     <div
@@ -132,7 +132,7 @@
 
     <!-- about -->
     <div
-      class="h-auto xl:h-screen bg-white grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 overflow-hidden my-8"
+      class="h-auto bg-white grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 my-8"
       id="about"
     >
       <div
@@ -142,53 +142,74 @@
         <div class="relative mb-10">
           <img
             class="w-auto h-[300px] md:h-[400px] lg:h-[500px] absolute top-10 left-10 hover:top-0 hover:left-0 duration-150 transition-all z-10"
-            src="../assets/img12.jpeg"
+            src="../assets/img16.jpeg"
             alt=""
           />
           <div
-            class="bg-slate-500 w-[200px] md:w-[260px] lg:w-[350px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto opacity-10"
+            class="bg-slate-500 w-[300px] md:w-[400px] lg:w-[500px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto opacity-10"
           ></div>
         </div>
       </div>
       <div
         data-aos="fade-up-left"
-        class="mr-10 lg:mr-20 mt-10 lg:mt-20 xl:mt-36 ml-16 lg:ml-20 mb-10 space-y-4 md:space-x-6 lg:space-y-8"
+        class="mr-10 lg:mr-20 mt-10 ml-16 lg:ml-20 mb-10 space-y-4 md:space-x-6 lg:space-y-8"
       >
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 font-vidaloka pl-0 md:pl-4"
         >
-          The Most Talented Young Model in Myanmar
+          The Most Talented Young Tamil Burmeses Model in Myanmar.
         </p>
-        <p class="text-sm text-gray-600 letter-spacing-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-          laboriosam blanditiis nemo aperiam tenetur aliquid maxime placeat!
-          Temporibus libero et ea voluptate, ex rem ut voluptatum asperiores
-          obcaecati ducimus,
-        </p>
-        <p class="text-sm text-gray-600 letter-spacing-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-          laboriosam blanditiis nemo
-        </p>
-        <div class="flex justify-start items-center space-x-6">
-          <p class="text-3xl font-semibold font-vidaloka">2020</p>
-          <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-          <p class="text-base md:text-lg font-italic font-thin">
-            FIRST STARRING FILM ROLE
+        <div class="space-y-2 md:space-y-4">
+          <p class="text-sm text-gray-600 letter-spacing-text">
+            Meet Ramki (Ye Ko), the most talented Tamil Burmese young model in
+            Myanmar. Started his career in 2019 with his striking looks and
+            charming personality, Ramki has quickly become one of the most
+            sought after models in the industry. Despite facing many challenges
+            as a Tamil Burmese model in Myanmar, Ramki has managed to break
+            barriers and make a name for himself.
           </p>
-        </div>
-        <div class="flex justify-start items-center space-x-6">
-          <p class="text-3xl font-semibold font-vidaloka mr-4">215</p>
-          <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-          <p class="text-base md:text-lg font-italic font-thin">
-            AWARDS AND NOMINATIONS
+          <p class="text-sm text-gray-600 letter-spacing-text">
+            Ramki's passion for modeling started at a young age and he has
+            worked tirelessly to achieve his dreams. Ramki's success has not
+            only brought him fame and recognition but has also inspired many
+            young people in Myanmar to follow their dreams.
           </p>
-        </div>
-        <div class="flex justify-start items-center space-x-6">
-          <p class="text-3xl font-semibold font-vidaloka mr-8">17</p>
-          <p class="w-2 h-2 bg-red-600 rounded-full"></p>
-          <p class="text-base md:text-lg font-italic font-thin">
-            FEATURE FILMS TO DATE
+          <p class="text-sm text-gray-600 letter-spacing-text">
+            Apart from modeling, Ramki is also actively involved in various
+            social causes. He uses his platform to raise awareness about
+            important issues and to promote diversity and inclusion in the
+            industry. Ramki's dedication to his craft and his commitment to
+            making a positive impact on society make him a true role model for
+            aspiring models and young people everywhere.
           </p>
+          <p class="text-sm text-gray-600 letter-spacing-text">
+            In conclusion, Ramki's talent, hard work, and dedication have made
+            him one of the most successful models in Myanmar. His story is a
+            testament to the power of perseverance and the importance of
+            following your dreams, no matter how challenging they may seem.
+          </p>
+
+          <div class="flex justify-start items-center space-x-6">
+            <p class="text-lg md:text-xl font-semibold font-vidaloka">Height</p>
+            <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+            <p class="text-lg md:text-xl font-semibold font-vidaloka">5' 7"</p>
+          </div>
+          <div class="flex justify-start items-center space-x-6">
+            <p class="text-lg md:text-xl font-semibold font-vidaloka">Weight</p>
+            <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+            <p class="text-lg md:text-xl font-semibold font-vidaloka mr-4">
+              145 lb (65 KG)
+            </p>
+          </div>
+          <div class="flex justify-start items-center space-x-6">
+            <p class="text-lg md:text-xl font-semibold font-vidaloka mr-3">
+              D.O.B
+            </p>
+            <p class="w-2 h-2 bg-red-600 rounded-full"></p>
+            <p class="text-lg md:text-xl font-semibold font-vidaloka mr-8">
+              21-Jan-1992
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -267,7 +288,7 @@
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-8"
         >
-          MY ALBLUM
+          MY ALBUM
         </p>
         <p
           class="text-xl text-gray-600 font-vidaloka text-center font-italic letter-spacing-text font-semibold"

@@ -13,7 +13,7 @@
             alt=""
           />
         </div>
-        <div class="relative h-[200px] overflow-hidden rounded-lg">
+        <div class="relative h-[360px] overflow-hidden rounded-lg">
           <img
             class="h-auto max-w-full hover:scale-125 duration-105 cursor-pointer transition absolute top-0"
             @click="showImageHandle(img2)"
@@ -139,18 +139,20 @@
 import { ref } from "vue";
 import Modal from "./Modal.vue";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
-import img1 from "../assets/img9.jpeg";
-import img2 from "../assets/img8.jpeg";
-import img3 from "../assets/img13.jpeg";
-import img4 from "../assets/img28.jpeg";
-import img5 from "../assets/img24.jpeg";
-import img6 from "../assets/img29.jpeg";
-import img7 from "../assets/img31.jpeg";
-import img8 from "../assets/img32.jpeg";
-import img9 from "../assets/img11.jpeg";
-import img10 from "../assets/img12.jpeg";
-import img11 from "../assets/img26.jpeg";
-import img12 from "../assets/img19.jpeg";
+import img1 from "../assets/west/0 (1).JPG";
+import img2 from "../assets/west/0 (10).JPG";
+import img3 from "../assets/west/0 (11).JPG";
+import img4 from "../assets/west/0 (12).JPG";
+import img5 from "../assets/west/0 (13).JPG";
+import img6 from "../assets/west/0 (14).JPG";
+import img7 from "../assets/west/0 (2).JPG";
+import img8 from "../assets/west/0 (3).jpg";
+import img9 from "../assets/west/0 (4).jpg";
+import img10 from "../assets/west/0 (5).jpg";
+import img11 from "../assets/west/0 (6).jpg";
+import img12 from "../assets/west/0 (7).jpg";
+import img13 from "../assets/west/0 (8).jpg";
+import img14 from "../assets/west/0 (9).JPG";
 
 const showImage = ref("");
 const categoryModalOpen = ref(false);
