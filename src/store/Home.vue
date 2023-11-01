@@ -86,23 +86,23 @@
     >
       <img
         src="../assets/dots.png"
-        class="absolute bottom-0 md:top-0 left-0 object-fill z-20 opacity-20"
+        class="absolute bottom-0 md:top-0 left-0 object-fill z-10 opacity-20"
         alt=""
       />
       <img
-        src="../assets/IMG_0247-removebg-preview.png"
-        class="absolute w-full bottom-0 block md:hidden"
+        src="../assets/latest/home_model_image.png"
+        class="absolute w-full bottom-[-40%] sm:top-10 block md:hidden z-20"
         alt=""
       />
       <img
-        src="../assets/Untitled-1.png"
-        class="hidden sm:block absolute bottom-0 object-cover lg:bottom-0 h-full"
+        src="../assets/latest/home_model_image.png"
+        class="hidden md:block absolute bottom-0 right-20 z-20 object-cover lg:bottom-0 h-full"
         alt=""
       />
-      <div class="h-screen w-full bg-gray-900/40 absolute z-10"></div>
+      <div class="h-screen w-full bg-gray-900/40 absolute z-20"></div>
       <div
         data-aos="fade-right"
-        class="absolute z-20 top-[35%] sm:top-[35%] md:top-[30%] left-[20%] space-y-10 lg:space-y-14"
+        class="absolute z-20 top-[25%] sm:top-[35%] md:top-[30%] left-[10%] md:left-[20%] space-y-10 lg:space-y-14"
       >
         <p
           class="text-3xl md:text-3xl lg:text-3xl font-vidaloka font-italic text-white letter-spacing-wide"
@@ -137,11 +137,11 @@
     >
       <div
         data-aos="fade-up-right"
-        class="flex justify-center items-center ml-8 md:ml-12 lg:ml-20"
+        class="flex justify-center items-center ml-0 md:ml-12 lg:ml-20"
       >
         <div class="relative mb-10">
           <img
-            class="w-auto h-[300px] md:h-[400px] lg:h-[500px] absolute top-10 left-10 hover:top-0 hover:left-0 duration-150 transition-all z-10"
+            class="w-auto h-[300px] md:h-[400px] lg:h-[500px] absolute top-5 md:top-10 left-5 md:left-10 hover:top-0 hover:left-0 duration-150 transition-all z-10"
             src="../assets/img16.jpeg"
             alt=""
           />
