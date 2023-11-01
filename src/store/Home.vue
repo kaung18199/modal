@@ -431,6 +431,9 @@ const toggle = () => {
 .letter-spacing-text {
   letter-spacing: 0.1em;
 }
+.letter-spacing-text-re {
+  letter-spacing: 0.05em;
+}
 @keyframes bounce {
   0%,
   100% {

@@ -9,7 +9,7 @@
             alt=""
           />
           <div
-            class="text-base md:text-lg lg:text-xl text-gray-600 letter-spacing-text font-vidaloka px-4 text-center w-full md:w-[600px] lg:w-[800px]"
+            class="text-sm md:text-base text-gray-600 font-beVie px-4 w-full md:w-[600px] lg:w-[800px] text-justify letter-spacing-text-re"
           >
             {{ slide.description }}
           </div>
