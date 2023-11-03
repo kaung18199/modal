@@ -84,9 +84,14 @@
       class="h-screen bg-slate-400 relative overflow-hidden login-image"
       id="home"
     >
-      <img
+      <!-- <img
         src="../assets/dots.png"
-        class="absolute bottom-0 md:top-0 left-0 object-fill z-10 opacity-20"
+        class="absolute bottom-0 md:top-0 left-0 object-fill z-10 opacity-90"
+        alt=""
+      /> -->
+      <img
+        src="../assets/latest/rrt2.jpg"
+        class="w-full relative h-full z-10 opacity-90"
         alt=""
       />
       <img
@@ -99,10 +104,12 @@
         class="hidden md:block absolute bottom-0 right-20 z-20 object-cover lg:bottom-0 h-full"
         alt=""
       />
-      <div class="h-screen w-full bg-gray-900/40 absolute z-20"></div>
+      <div
+        class="h-screen w-full bg-gray-900/20 absolute top-0 left-0 z-40"
+      ></div>
       <div
         data-aos="fade-right"
-        class="absolute z-20 top-[25%] sm:top-[35%] md:top-[30%] left-[10%] md:left-[20%] space-y-10 lg:space-y-14"
+        class="absolute z-50 top-[25%] sm:top-[35%] md:top-[30%] left-[10%] md:left-[20%] space-y-10 lg:space-y-14"
       >
         <p
           class="text-3xl md:text-3xl lg:text-3xl font-vidaloka font-italic text-white letter-spacing-wide"
@@ -123,7 +130,7 @@
         </div>
         <a
           href="#contact"
-          class="text-base font-semibold text-white px-6 inline-block py-3 border-2 border-gray-300 rounded-full text-center hover:bg-gray-900 animate-bounce duration-200"
+          class="text-base font-semibold text-white px-6 inline-block py-3 border-2 border-gray-300 rounded-full text-center bg-gray-900 hover:bg-transparent animate-bounce duration-200"
         >
           contact me
         </a>
