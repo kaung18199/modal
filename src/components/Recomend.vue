@@ -5,7 +5,7 @@
         <div class="space-y-8 my-10">
           <img
             :src="slide.image"
-            class="w-20 md:w-28 lg:w-36 h-20 md:h-28 lg:h-36 rounded-full border border-gray-400 shadow-lg mx-auto"
+            class="w-20 md:w-28 lg:w-36 h-20 md:h-28 lg:h-36 object-cover rounded-full border border-gray-400 shadow-lg mx-auto"
             alt=""
           />
           <div
@@ -34,6 +34,8 @@
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 import { ref } from "vue";
+import img1 from "../assets/latest/director.jpg";
+import img2 from "../assets/latest/model.jpg";
 
 const recomend_data = ref([
   {
@@ -47,8 +49,7 @@ const recomend_data = ref([
   },
   {
     id: 2,
-    image:
-      "https://cdn5.vectorstock.com/i/1000x1000/77/84/stage-director-on-set-pop-art-vector-19267784.jpg",
+    image: img2,
     name: "Artist Holy",
     description:
       "Ramki is a true visionary who understands the essence of art and its impact on society. Working with him has been an absolute pleasure as he constantly pushes the boundaries of creativity and encourages me to explore new ideas. His attention to detail and dedication to his craft is truly inspiring and has helped me elevate my own work to new heights. I feel incredibly fortunate to have the opportunity to collaborate with such a talented and passionate artist like Ramki.",
@@ -56,8 +57,7 @@ const recomend_data = ref([
   },
   {
     id: 3,
-    image:
-      "https://cdn5.vectorstock.com/i/1000x1000/77/84/stage-director-on-set-pop-art-vector-19267784.jpg",
+    image: img1,
     name: "Director Kamal ",
     description:
       "Ramki is a fantastic individual who possesses a unique set of qualities that make him stand out from the crowd. In addition to his wonderful personality, Ramki is also a very hardworking and dedicated individual. He takes his responsibilities seriously and is always willing to go above and beyond to ensure that he delivers quality work. His attention to detail and ability to think outside the box make him an invaluable asset to any team.",
