@@ -114,13 +114,13 @@
         <p
           class="text-3xl md:text-3xl lg:text-3xl font-vidaloka font-italic text-white letter-spacing-wide"
         >
-          ACTOR/MODAL
+          ACTOR/MODEL
         </p>
         <div>
           <p
             class="text-5xl mb-2 lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
           >
-            MODAL
+            MODEL
           </p>
           <p
             class="text-3xl sm:text-5xl lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
@@ -403,8 +403,12 @@
           </p>
         </div>
       </div>
-      <div class="text-end col-span-2 pr-20 mb-8 font-vidaloka text-gray-500">
-        <p>Created by Neptunemm</p>
+      <div
+        class="text-end col-span-2 pr-20 mb-8 font-vidaloka text-gray-500 relative z-30"
+      >
+        <a href="https://neptunemm.com/" target="_blink" class="cursor-pointer"
+          >Created by Neptunemm</a
+        >
       </div>
       <img
         src="../assets/dots.png"
