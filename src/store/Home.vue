@@ -94,13 +94,23 @@
         class="w-full relative h-full z-10 opacity-90"
         alt=""
       />
-      <img
+      <!-- <img
         src="../assets/latest/home_model_image.png"
         class="absolute w-full bottom-[-40%] sm:top-10 block md:hidden z-20"
         alt=""
-      />
+      /> -->
       <img
+        src="../assets/IMG_0247-removebg-preview.png"
+        class="absolute w-full bottom-[0] sm:top-10 block md:hidden z-20"
+        alt=""
+      />
+      <!-- <img
         src="../assets/latest/home_model_image.png"
+        class="hidden md:block absolute bottom-0 right-20 z-20 object-cover lg:bottom-0 h-full"
+        alt=""
+      /> -->
+      <img
+        src="../assets/IMG_0247-removebg-preview.png"
         class="hidden md:block absolute bottom-0 right-20 z-20 object-cover lg:bottom-0 h-full"
         alt=""
       />
@@ -117,15 +127,20 @@
           ACTOR/MODEL
         </p>
         <div>
-          <p
-            class="text-5xl mb-2 lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
-          >
-            MODEL
-          </p>
-          <p
-            class="text-3xl sm:text-5xl lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
-          >
-            RAMKI YE KO
+          <div>
+            <p
+              class="text-5xl mb-2 lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
+            >
+              MODEL
+            </p>
+            <p
+              class="text-3xl sm:text-5xl lg:text-6xl font-vidaloka font-extrabold text-white letter-spacing-wide"
+            >
+              RAMKI YE KO
+            </p>
+          </div>
+          <p class="mt-4 text-white font-vidaloka letter-spacing-wide">
+            Tamil Myanmar First Actor
           </p>
         </div>
         <a
@@ -247,7 +262,7 @@
         <p
           class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold text-gray-800 letter-spacing-text font-vidaloka text-center mt-10"
         >
-          RECOMMENT
+          RECOMMEND
         </p>
         <p
           class="text-xl text-gray-600 font-vidaloka text-center font-italic letter-spacing-text font-semibold"

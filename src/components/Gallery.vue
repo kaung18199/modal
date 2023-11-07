@@ -10,7 +10,7 @@
         <div class="carousel__item rounded-md">
           <img
             :src="slide.image"
-            class="object-fill h-[320px] rounded-md shadow-md"
+            class="object-cover h-[320px] rounded-md shadow-md"
             alt=""
           />
         </div>
